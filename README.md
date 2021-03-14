@@ -1,7 +1,18 @@
-# Quiz App with React and Typescript
+# Quiz App PWA with React and Typescript
 
-See Deploy Project [here](http://msr-bootcamp-react-ts-quiz-app.surge.sh/)
+Live Site: https://selim-quiz-app.netlify.app/
 
-### Run Project
-- npm install
-- yarn start 
+**Using:**
+
+* React
+* TypeScript
+* Boostrap 4
+* PWA (Service worker and Manifest)
+
+**Run Application**
+
+```
+cd Quiz-App-PWA
+npm install
+npm start
+```
