@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Quiz from "./components/Quiz";
 import ScoreBoard from "./components/ScoreBoard";
 import PageNotFound from "./components/PageNotFound";
+import Footer from "./components/Footer";
 
 
 function Routing() {
@@ -66,6 +67,7 @@ function Routing() {
                     }
                     <Route path="*"><PageNotFound /></Route>
                 </Switch>
+                <Footer/>
             </div>
         </Router >
     )

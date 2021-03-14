@@ -59,7 +59,7 @@ const Quiz: React.FC<Props> = ({ userInfo, getUserScore, getToPath }) => {
     }
 
     if (!quiz.length) {
-        return <h1>Loading...</h1>
+        return <h1 className="mt-5">Loading...</h1>
     }
 
     return (
